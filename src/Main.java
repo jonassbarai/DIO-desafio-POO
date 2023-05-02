@@ -1,3 +1,4 @@
+import br.com.dio.desafio.dominio.Conteudo;
 import br.com.dio.desafio.dominio.Curso;
 import br.com.dio.desafio.dominio.Mentoria;
 
@@ -8,9 +9,10 @@ public class Main {
 
     Curso curso = new Curso("Lógica de Programação","Curso de lógica", 30);
 
-        Mentoria mentoria = new Mentoria("mentoria em java","descrição mentoria em java", LocalDate.now());
+    Mentoria mentoria = new Mentoria("mentoria em java","descrição mentoria em java", LocalDate.now());
 
-        System.out.println(mentoria);
+
+    System.out.println(mentoria);
 
     }
 }
