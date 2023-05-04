@@ -7,6 +7,7 @@ public class Dev {
     private Set<Conteudo> conteudosInscritos = new LinkedHashSet<>();
     private Set<Conteudo> conteudosConcluidos = new LinkedHashSet<>();
 
+
     public String getNome() {
         return nome;
     }
@@ -65,8 +66,6 @@ public class Dev {
                 .stream()
                 .mapToDouble(Conteudo::calcularXP)
                 .sum();
-
-    
     }
 
 }
